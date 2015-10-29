@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #ffd;
+  font: 30px sans-serif;
+}
+
+canvas{
+    background:#000;
+    float:left;
+}
+ #scoreWrapper {
+    float:left;    
+}
+        
+ #wrapper {
+      overflow:hidden;
+}
+
+#life{
+    overflow:hidden;  
+}
+
+
+#life li{
+    float:left;
+    margin-left:20px;
+    list-style-type:none;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>シューティングゲーム</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+</head>
+<body>
+
+  <!-- Canvas -->
+  <div id="wrapper">
+       <p>time:<span id="time"></span></p>
+    <section>
+        <canvas id="drowarea" width="768" height="576" style="border:2px solid #555;"></canvas>
+    </section>
+    <!--// Canvas -->
+    <p style="width:500px;">スコア：<span id="score"></span></p>
+    
+    <div>
+        <p style="width:500px;">1回前スコア：<span id="score1"></span></p>
+        <p style="width:500px;">2回前スコア：<span id="score2"></span></p>
+        <p style="width:500px;">3回前スコア：<span id="score3"></span></p>
+        <p style="width:500px;">4回前スコア：<span id="score4"></span></p>
+        <p style="width:500px;">5回前スコア：<span id="score5"></span></p>
+    </div>
+  </div>
+  <script src="js/script-process4.js"></script>
+</body>
+</html>
